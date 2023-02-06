@@ -11,7 +11,7 @@ db = client["exceedtest"]
 collection = db['enrrolment']
 
 res = collection.insert_one({"person":"1"})
-print(client.list_database_names())
+collection.de
 # for i in collection.find():
 #     print(i)
 
